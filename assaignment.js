@@ -1,5 +1,5 @@
 
-/**       Bellow is My 1st task       */
+/**       Bellow is My 1st task   */    
 
 
 function kilometerToMeter(kilommeter){
@@ -22,7 +22,7 @@ console.log(result);
 
 
 
-/**                My 2nd task             */
+/**                My 2nd task      */       
  
 
 
@@ -54,7 +54,7 @@ console.log(budget);
 
 
 
-/**          My 3rd task is given bellow...            */
+/**          My 3rd task is given bellow...  */          
 
 
 function hotelCost(night){
@@ -92,4 +92,30 @@ console.log(total);
 
 
 
-/**       This is my last task for the day      */
+  
+/**       my last task       */
+
+
+
+function megaFriend(str){
+
+var friend = str.split(" ");
+var longestFriend= "";
+for(var i = 0; i< friend.length; i++){
+    if(friend[i].length>longestFriend){
+        longestFriend = friend[i].length;
+    }
+    }
+return longestFriend;
+     }
+     console.log(megaFriend("kamal Shakhawat shantono habib kamrul arif choton"));
+  
+
+
+
+
+
+
+
+
+
