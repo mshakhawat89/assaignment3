@@ -1,16 +1,35 @@
 
+
+//    https://github.com/mshakhawat89/assaignment3
+
+
+
+
+
 /**       Bellow is My 1st task   */    
 
 
-function kilometerToMeter(kilommeter){
+function kilometerToMeter(kilometer){
 
- var meter = kilommeter*1000;
+ var meter = kilometer*1000;
 
 return meter;
 }
 
-var result = kilometerToMeter(15);
-console.log(result);
+
+var result = kilometerToMeter(-7);
+
+if(result>0){
+
+    console.log(result);
+}
+
+
+
+else{
+    console.log("distance cann't be negative");
+}
+
 
 
 
@@ -39,8 +58,17 @@ var totalCostings = watchCostings + mobileCostings + laptopCostings;
 return totalCostings;
 }
 
-var budget = budgetCalculator(8);
-console.log(budget);
+var budget = budgetCalculator(40);
+
+if(budget>0){
+    console.log(budget);
+}
+
+else{
+    console.log("Nothing is free in the world even poison");
+}
+
+
 
 
 
@@ -82,8 +110,15 @@ cost = firstCost + secondCost + thirdCost;
 return cost;
 }
 
-var total = hotelCost(35);
-console.log(total);
+var totalCostings = hotelCost(36);
+
+if(totalCostings>0){
+    console.log(totalCostings);
+}
+
+else{
+    console.log("please check your input  put the correct values ");
+}
 
 
 
@@ -103,6 +138,7 @@ var friend = str.split(" ");
 var longestFriend= "";
 for(var i = 0; i< friend.length; i++){
     if(friend[i].length>longestFriend){
+
         longestFriend = friend[i].length;
     }
     }
@@ -110,6 +146,12 @@ return longestFriend;
      }
      console.log(megaFriend("kamal Shakhawat shantono habib kamrul arif choton"));
   
+
+
+
+
+
+
 
 
 
